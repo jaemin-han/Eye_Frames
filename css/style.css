@@ -69,9 +69,18 @@ nav li:first-child {
 }
 
 /*Main content and footer*/
+/*This captures the first div, right below header tag*/
 header+div {
   height: 400px;
+  width: 100%;
   margin: 20px 0;
+  /*background-color: tomato;*/
+  background: url(../images/hero-image.jpg) no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: relative;
+
 }
 
 #container>div+div,footer>div {
