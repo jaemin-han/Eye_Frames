@@ -1,7 +1,7 @@
 * {
   width: 100%;
   /*border here is for testing layout*/
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -58,7 +58,7 @@ nav li:first-child {
 }
 
 #logo {
-  background: url('../images/logoz2.png') no-repeat;
+  background: url('../images/logoz2.png') no-repeat; /*idea inspired by Federico Mauro*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -83,12 +83,18 @@ header+div {
   width: 100%;
   margin: 20px 0;
   /*background-color: tomato;*/
-  background: url(../images/hero-image.jpg) no-repeat fixed;
+  background: url(../images/hero-image.jpg) no-repeat fixed; /*unsplash.com - free to use this image*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   position: relative;
+}
 
+#item1 {
+  background: url(../images/hero-image.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
 }
 
 #container>div+div,footer>div {
