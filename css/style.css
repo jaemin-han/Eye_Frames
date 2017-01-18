@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+#nav {
+  background-color: tomato;
+  width: 50vw;
+  height: 30vh;
+}
+
+#logo {
+  zoom: 20%;
+}
+
+li {
+  display: inline;
+}
