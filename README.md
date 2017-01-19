@@ -6,5 +6,5 @@ Initial Setup and Flow of the site.
 
 Resources <br>
 Glasses Image: https://www.vintandyork.com/content/wp-content/uploads/2016/02/billy_b_10.jpg <br>
-Logo Idea inspired by Federico Mauro (http://federicomauro.eu/famous-eyeglasses)
-
+Logo Idea inspired by Federico Mauro (http://federicomauro.eu/famous-eyeglasses) <br>
+Modal Idea from http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal

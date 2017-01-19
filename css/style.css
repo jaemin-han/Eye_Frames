@@ -1,5 +1,5 @@
 * {
-  width: 100%;
+  /*width: 100%;*/
   /*border here is for testing layout*/
   border: 1px solid black;
   -moz-box-sizing: border-box;
@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
 }
 
-/*Navigation*/
+/********Navigation Start**********/
 nav {
   height: 60px;
 }
@@ -75,8 +75,11 @@ nav li:first-child {
   margin: 5px auto;
   border-radius: 5px;
 }
+/********Navigation End**********/
 
-/*Main content and footer*/
+
+
+/**********Main Content Start************/
 /*This captures the first div, right below header tag*/
 header+div {
   height: 400px;
@@ -88,6 +91,11 @@ header+div {
   -moz-background-size: cover;
   -o-background-size: cover;
   position: relative;
+}
+
+.title {
+  margin-top: 170px;
+  font-size: 25px;
 }
 
 #item1 {
@@ -103,11 +111,82 @@ header+div {
   float: left;
   margin: 10px 1.5%;
 }
+/**********Main Content End************/
 
+/*********Modal Start*********/
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  padding: 20px 50px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+/*Modal Opacity - background*/
+.modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+}
+
+/*Modal Box*/
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  margin: 15% auto;
+/*  padding: 1.2rem;*/
+  max-width: 50%;
+  max-height: 50%;
+  visibility: hidden;
+}
+
+.modal-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+/*  margin-bottom: 1rem;*/
+  font-size: 20px;
+}
+
+.slide {
+  visibility: visible !important;
+  animation-name: slideDown;
+  -webkit-animation-name: slideDown;
+  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+}
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-80%);
+  }
+  50%{
+    transform: translateY(5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+/*********Modal End*********/
+
+/*********Footer Start******/
 footer {
   clear: left;
 }
+/*********Footer Start*******/
 
+/**********Media Query Start*******/
 @media screen and (max-width:768px) {
   /*Navigation*/
   nav li {
@@ -123,3 +202,8 @@ footer {
     width: 97%;/*100%-3% margins*/
   }
 }
+/**********Media Query End*******/
+
+
+
+
