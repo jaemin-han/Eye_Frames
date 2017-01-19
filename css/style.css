@@ -1,7 +1,7 @@
 * {
   /*width: 100%;*/
   /*border here is for testing layout*/
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -99,10 +99,57 @@ header+div {
 }
 
 #item1 {
-  background: url(../images/hero-image.jpg) no-repeat;
+  background: url(../images/item0.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  z-index: 2;
+}
+
+#item2 {
+  background: url(../images/item1.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#item3 {
+  background: url(../images/item2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#offer {
+padding: 1% 40%;
+border: 1px solid black;
+margin: 0;
+}
+
+a .offer {
+  border: 1px solid black;
+  /*padding: 50px 50px 50px 50px;*/
+  margin: 50px;
+}
+
+.hover {
+  padding: 47px 131px;
+  border: 1px solid black;
+}
+
+.hover h2, .hover h3 {
+  visibility: hidden;
+}
+
+.hover:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  visibility: visible !important;
+/*  display: visible;*/
+}
+
+.hover:hover h2, .hover:hover h3 {
+  visibility: visible !important;
+  color: white;
 }
 
 #container>div+div,footer>div {

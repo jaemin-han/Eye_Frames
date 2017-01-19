@@ -5,6 +5,8 @@ Online Boutique Shop for Glasses
 - Initial Setup and Flow of the site
 ![](/images/initial_setup2.png)
 - Wireframing as I code the layout of the page
+![](/images/initial_setup3.png)
+- Functional modal and hover setup
 
 Resources <br>
 Glasses Image: https://www.vintandyork.com/content/wp-content/uploads/2016/02/billy_b_10.jpg <br>
