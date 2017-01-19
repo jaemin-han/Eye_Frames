@@ -1,7 +1,7 @@
 * {
   /*width: 100%;*/
   /*border here is for testing layout*/
-  /*border: 1px solid black;*/
+  border: 1px solid black;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -199,8 +199,7 @@ a .offer {
 
 .modal-header {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: column;
   align-items: center;
 /*  margin-bottom: 1rem;*/
   font-size: 20px;
@@ -251,6 +250,22 @@ footer {
 }
 /**********Media Query End*******/
 
+/*TEST*/
+.parent {
+/*  background: tomato;*/
+/*  height: 400px;
+  width: 83%;*/
+/*  margin: 0 auto;*/
+  text-align: center;
+/*  float:right;*/
+}
 
+.sell {
+/*  height: 210px;
+  width: 210px;
+  border: 5px solid black;
+  border-radius: 20px;
+  margin: 20px 20px 0 60px;*/
+}
 
 
