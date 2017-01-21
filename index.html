@@ -40,10 +40,22 @@
         </div>
       </div>
 
-      <div class="button button-style click" id="item2">Hello</div>
-      <div class="button button-style click" id="item3"></div>
+      <div class="button button-style click" id="item2">
+        <div class="hover">
+          <h2>Header</h2>
+          <h3>Message</h3>
+        </div>
+      </div>
 
-      <a href="##" id="modal-button" class="button">
+
+      <div class="button button-style click" id="item3">
+        <div class="hover">
+          <h2>Header</h2>
+          <h3>Message</h3>
+        </div>
+      </div>
+
+      <a href="##" id="modal-button" class="button offer">
         <h2 id="offer">Additional Offer</h2>
       </a>
 
@@ -60,24 +72,28 @@
             <div class="parent">
               <!-- <img class="sell" src="" /> -->
                 <form method=get action="checkout.html">
-                  <input type="hidden" name="ID" value="Some Thingy">
-                  <input type="hidden" name="Price:" value="$500.99">
-                  <input name="Qty:" size=1 value="0"> Quantity <br>
-                  <label>Blue</label>
-                  <input type="radio" name="Color:" value="Blue"><br>
-                  <label>Green</label>
-                  <input type="radio" name="Color:" value="Green"><br>
-                  <label>Red</label>
-                  <input type="radio" name="Color:" value="Red"><br>
+<!--                   <input type="hidden" name="ID" value="Some Thingy">
+                  <input type="hidden" name="Price:" value="$500.99"> -->
+                  <div class="divider">
+                    <input name="Qty:" size=1 value="0"> Quantity <br>
+                    <label>Blue</label>
+                    <input type="radio" name="Color:" value="Blue"><br>
+                    <label>Green</label>
+                    <input type="radio" name="Color:" value="Green"><br>
+                    <label>Red</label>
+                    <input type="radio" name="Color:" value="Red"><br>
+                  </div>
 
-                  <select name="Size">
-                    <option value='Small'>Small Fit</option>
-                    <option value='Medium'>Medium Fit</option>
-                    <option value='Large'>Large Fit</option>
-                  </select>
-                  <br>
+                  <div class="divider">
+                    <select name="size">
+                      <option value='Small'>Small Fit</option>
+                      <option value='Medium'>Medium Fit</option>
+                      <option value='Large'>Large Fit</option>
+                    </select>
+                    <br>
 
-                  <input type="submit" value="Add to Cart">
+                    <input type="submit" value="Add to Cart">
+                  </div>
                 </form>
             </div>
             <!-- TEST -->
@@ -88,9 +104,25 @@
       <!-- Modal End -->
 
       <footer class="clearfix">
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="button button-style click" id="item4">
+          <div class="hover">
+            <h2>Header</h2>
+            <h3>Message</h3>
+          </div>
+        </div>
+
+        <div class="button button-style click" id="item5">
+          <div class="hover">
+            <h2>Header</h2>
+            <h3>Message</h3>
+          </div>
+        </div>
+        <div class="button button-style click" id="item6">
+          <div class="hover">
+            <h2>Header</h2>
+            <h3>Message</h3>
+          </div>
+        </div>
       </footer>
     </div>
   </body>

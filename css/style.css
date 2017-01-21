@@ -1,7 +1,7 @@
 * {
   /*width: 100%;*/
   /*border here is for testing layout*/
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -120,6 +120,27 @@ header+div {
   -o-background-size: cover;
 }
 
+#item4 {
+  background: url(../images/item2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#item5 {
+  background: url(../images/item2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#item6 {
+  background: url(../images/item2.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
 #offer {
 padding: 1% 40%;
 border: 1px solid black;
@@ -165,12 +186,16 @@ a .offer {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 20px;
-  padding: 20px 50px;
+  margin: 17px;
+  padding: 20px 40px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
   color: black;
+}
+
+.offer {
+  padding-top: 50px;
 }
 
 /*Modal Opacity - background*/
@@ -252,12 +277,19 @@ footer {
 
 /*TEST*/
 .parent {
-/*  background: tomato;*/
-/*  height: 400px;
-  width: 83%;*/
-/*  margin: 0 auto;*/
+  /*background: tomato;*/
+  height: 200px;
+  width: 83%;
+  margin: 0 auto;
   text-align: center;
 /*  float:right;*/
+}
+
+.divider {
+  float: left;
+  /*justify-content: center;*/
+  width: 50%;
+  margin: 0 auto;
 }
 
 .sell {
