@@ -21,6 +21,18 @@
   height: 0;
 }
 
+h1 {
+  font-family: 'Pacifico', cursive;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+}
+
+h3 {
+  font-family: 'Pacifico', cursive;
+}
+
 ul {
   padding: 0 auto;
   margin: 0 auto;
@@ -34,6 +46,7 @@ ul {
 /********Navigation Start**********/
 nav {
   height: 60px;
+  font-family: 'Pacifico', cursive;
 }
 
 nav li {
@@ -64,8 +77,8 @@ nav li:first-child {
   -o-background-size: cover;
   height: 70px;
   width: 140px;
-  padding: 0 auto;
-  margin: 5px auto;
+/*  padding: 0 auto;*/
+  margin: 5px 90px 5px 0;
 
 }
 
@@ -121,21 +134,21 @@ header+div {
 }
 
 #item4 {
-  background: url(../images/item2.jpg) no-repeat;
+  background: url(../images/message1.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 
 #item5 {
-  background: url(../images/item2.jpg) no-repeat;
+  background: url(../images/message2.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
 
 #item6 {
-  background: url(../images/item2.jpg) no-repeat;
+  background: url(../images/message3.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
