@@ -67,29 +67,30 @@
       <div class="modal-content slide">
         <div class="modal-header">
           <span class="close" id="closeModal">return</span>
-          <h2>Choose Your Frame</h2>
+          <h2>- Choose Your Frame -</h2>
 
             <!-- TEST -->
             <div class="parent">
-              <!-- <img class="sell" src="" /> -->
                 <form method=get action="checkout.html">
 <!--                   <input type="hidden" name="ID" value="Some Thingy">
                   <input type="hidden" name="Price:" value="$500.99"> -->
                   <div class="divider">
-                    <input name="Qty:" size=1 value="0"> Quantity <br>
-                    <label>Blue</label>
+                    <h3>Quantity: </h3>
+                    <input name="Qty:" size=1 value="0"><br>
+                    <h3>Frame Color:</h3><br>
+                    <label>Blue: </label>
                     <input type="radio" name="Color:" value="Blue"><br>
-                    <label>Green</label>
+                    <label>Green: </label>
                     <input type="radio" name="Color:" value="Green"><br>
-                    <label>Red</label>
+                    <label>Red: </label>
                     <input type="radio" name="Color:" value="Red"><br>
                   </div>
 
                   <div class="divider">
                     <select name="size">
-                      <option value='Small'>Small Fit</option>
-                      <option value='Medium'>Medium Fit</option>
-                      <option value='Large'>Large Fit</option>
+                      <option value="small" class="drop">Small Fit</option>
+                      <option value="medium" class="drop">Medium Fit</option>
+                      <option value="large" class="drop">Large Fit</option>
                     </select>
                     <br>
 

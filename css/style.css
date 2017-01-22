@@ -240,7 +240,8 @@ a .offer {
   flex-direction: column;
   align-items: center;
 /*  margin-bottom: 1rem;*/
-  font-size: 20px;
+  /*font-size: 20px;*/
+  height: 70%;
 }
 
 .slide {
@@ -249,6 +250,10 @@ a .offer {
   -webkit-animation-name: slideDown;
   animation-duration: 0.3s;
   -webkit-animation-duration: 0.3s;
+}
+
+.close {
+  font-family: 'Pacifico', cursive;
 }
 
 @keyframes slideDown {
@@ -288,7 +293,7 @@ footer {
 }
 /**********Media Query End*******/
 
-/*TEST*/
+/**********Modal Items***********/
 .parent {
   /*background: tomato;*/
   height: 200px;
@@ -305,10 +310,31 @@ footer {
   margin: 0 auto;
 }
 
-.sell {
-/*  height: 210px;
-  width: 210px;
-  border: 5px solid black;
-  border-radius: 20px;
-  margin: 20px 20px 0 60px;*/
+.divider input {
+  font-family: 'Pacifico', cursive;
 }
+
+/*There must be a way... I cannot get the dropdown font-family to work.*/
+/*select option {
+  font-family: 'Pacifico', cursive;
+}*/
+
+select {
+  margin-top: 20px;
+}
+
+input[type=submit] {
+  margin-top: 70px;
+  padding: 10px 20px;
+  background-color: tomato;
+  border: 1px solid black;
+}
+
+.divider h3 {
+  display: inline-block;
+}
+
+label {
+  font-family: 'Pacifico', cursive;
+}
+
