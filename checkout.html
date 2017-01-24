@@ -6,32 +6,27 @@
     <title>
 
     </title>
-    <link rel="stylesheet" href="css/mystyles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <script src="js/app.js" type="text/javascript" charset="utf-8"> </script>
   </head>
 
   <body>
-<!--    <div id="navigation" class="pages">
-      <ul>
-        <li><a href="#blank">Return to Home</a></li>
-        <li><a href="#banner2">Promotional Code</a></li>
-        <li><a href="#blank2">Help</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </div> -->
-
-  <div class="parent">
+  <div class="background">
+    <div id="parent">
       <div id ='left'>
         <div id='cart-icon'> - Cart - </div>
+
         <div id='item-box'>
           <h4>Items</h4><br>
         </div>
-        </div>
+      </div>
 
-        <div id ='right'>
-          <form action="http://localhost:3000/showForm" class="list-maker-form" method="post" target='black'>
-        <div id='shipping'>
+      <div id ='right'>
+        <form action="##" class="list-maker-form" method="post" target='black'>
 
+          <div id='shipping'>
             <label>Shipping Address:</label><br><br>
               <input placeholder="First Name" list="browsers" type="css" name="First_Name" style="width: 150px;" />
               <input placeholder="Last Name" list="browsers" type="css" name="Last_Name" style="width: 150px;" /><br>
@@ -40,23 +35,24 @@
               <input placeholder="State" list="browsers" type="css" name="State" style="width: 97px;" />
               <input placeholder="Zip Code" list="browsers" type="css" name="Zip" style="width: 97px;" /><br>
               <input placeholder="Email" list="browsers" type="css" name="Email" style="width: 310px;" /><br><br>
-        </div>
+          </div>
 
-        <div id='payment'>
-          <label>Payment Information:</label><br><br>
-            <input placeholder="Card First Name" list="browsers" type="css" name="Card_First_Name" style="width: 150px;" />
-            <input placeholder="Card Last Name" list="browsers" type="css" name="Card_Last_Name" style="width: 150px;" /><br>
-            <input placeholder="Card Number" list="browsers" type="css" name="Card_Number" style="width: 310px;" /><br>
-            <input placeholder="Expiration: Month" list="browsers" type="css" name="ExpireMM" style="width: 97px;" />
-            <input placeholder="Expiration: Year" list="browsers" type="css" name="ExpireYY" style="width: 97px;" />
-            <input placeholder="CVV" list="browsers" type="css" name="CVV" style="width: 97px;" /><br><br>
+          <div id='payment'>
+            <label>Payment Information:</label><br><br>
+              <input placeholder="Card First Name" list="browsers" type="css" name="Card_First_Name" style="width: 150px;" />
+              <input placeholder="Card Last Name" list="browsers" type="css" name="Card_Last_Name" style="width: 150px;" /><br>
+              <input placeholder="Card Number" list="browsers" type="css" name="Card_Number" style="width: 310px;" /><br>
+              <input placeholder="Expiration: Month" list="browsers" type="css" name="ExpireMM" style="width: 97px;" />
+              <input placeholder="Expiration: Year" list="browsers" type="css" name="ExpireYY" style="width: 97px;" />
+              <input placeholder="CVV" list="browsers" type="css" name="CVV" style="width: 97px;" /><br><br>
 
-            <textarea placeholder="Comment" list="browsers" type="css" name="comment" rows="4" cols="50"></textarea>
-
-            <button type="submit">Submit Now!</button> <br><br><br>
-        </div>
-          </form>
-        </div>
+              <textarea placeholder="Comment" list="browsers" type="css" name="comment" rows="4" cols="50"></textarea>
+              <br>
+              <button type="submit">Submit Now!</button> <br><br><br>
+          </div>
+        </form>
+      </div>
+    </div>
     </div>
   </body>
 </html>
