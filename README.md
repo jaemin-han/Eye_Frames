@@ -12,6 +12,8 @@ Online Boutique Shop for Glasses
 <br>
 ![](/images/initial_setup4.png)
 - Modal GET/POST request to checkout.html page
+![](/images/initial_setup5.png)
+- checkout.html page setup
 
 Resources <br>
 Glasses Image: https://www.vintandyork.com/content/wp-content/uploads/2016/02/billy_b_10.jpg <br>
