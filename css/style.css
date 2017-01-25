@@ -337,7 +337,7 @@ label {
 #parent {
   display: flex;
   flex-wrap: wrap;
-  padding: 20px 80px 70px 80px;
+  padding: 20px 80px 75px 80px;
  /* margin: 150px 80px 50px 80px;*/
 }
 
@@ -388,6 +388,8 @@ label {
     background-color: tomato;
     border: none;
     padding: 5px 10px;
+    font-family: 'Pacifico', cursive;
+    border: 1px solid black;
 }
 
 /*********Footer Start******/
