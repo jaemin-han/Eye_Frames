@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
 console.log('Connected');
 
-
-
-// Declare Variables
+// Declare Variables Modal START *****
 const modal = document.getElementById('myModal')
 const button = document.getElementById("modal-button")
 const close = document.querySelectorAll(".close")[0]
@@ -28,10 +26,10 @@ window.onclick = function(event) {
     modal.style.display = "none"
   }
 }
+// Declare Variables Modal END *****
 
-// // Add To Cart Test
-
-// function courtesy of http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+// Add To Cart index --> checkout START *****
+// Function courtesy of http://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
 var urlParams;
 (window.onpopstate = function () {
     var match,
@@ -45,15 +43,13 @@ var urlParams;
        urlParams[decode(match[1])] = decode(match[2]);
 })();
 
-// creates a div for the cart, and attaches a section inside
-
-
+// Create a div for the cart, and attaches a section inside
 function addToCart (itemObj) {
-  //creates a new section and list for each product
+  // Create a new section and list for each product
   var $cartSection = document.createElement('table');
   $cartSection.setAttribute('class', "cart-table");
 
-  // attaches each item data to the cart
+  // Attache each item data to the cart (checkout.html)
   var totalPrice = Number(itemObj.Price) * Number(itemObj.Qty);
   //$cartSection.innerHTML = itemObj.ID + " - $" + totalPrice;
   delete itemObj.ID;
@@ -72,7 +68,6 @@ function addToCart (itemObj) {
   document.getElementById('item-box').appendChild($cartSection);
 }
 
-
 addToCart(urlParams);
 
 function dataForServer (itemObj) {
@@ -86,7 +81,6 @@ function dataForServer (itemObj) {
 }
 
 dataForServer(urlParams);
-
-
+// Add To Cart index --> checkout END *****
 
 });
