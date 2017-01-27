@@ -3,13 +3,16 @@ Online Boutique Shop for Glasses
 
 ![](/images/initial_setup.png)
 - Initial Setup and Flow of the site
-<br>
+<br />
+<hr>
 ![](/images/initial_setup2.png)
 - Wireframing as I code the layout of the page
-<br>
+<br />
+<hr>
 ![](/images/initial_setup3.png)
 - Functional modal and hover setup
-<br>
+<br />
+<hr>
 ![](/images/initial_setup4.png)
 - Modal GET/POST request to checkout.html page
 ![](/images/initial_setup5.png)
@@ -20,5 +23,5 @@ Glasses Image: https://www.vintandyork.com/content/wp-content/uploads/2016/02/bi
 Logo Idea inspired by Federico Mauro (http://federicomauro.eu/famous-eyeglasses) <br>
 Modal Idea from http://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
 
-![](/images/creative.jpg)
+![](/images/creative.jpg)<br />
 Simply Creative.
