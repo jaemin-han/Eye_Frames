@@ -9,7 +9,7 @@ Online Boutique Shop for Glasses
 - Wireframing as I code the layout of the page
 <br />
 <hr>
-![](/images/initial_setup3.png)
+![](/images/initial_setup6.png)
 - Functional modal and hover setup
 <br />
 <hr>
