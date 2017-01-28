@@ -56,6 +56,11 @@ nav li {
   margin: 4vh 10px;
   text-align: center;
   list-style-type: none;
+  /*border: 1px solid black;*/
+}
+
+nav li:hover {
+  text-decoration: underline;
 }
 
 nav li a {
@@ -87,6 +92,7 @@ nav li:first-child {
   width: 60%;
   margin: 5px auto;
   border-radius: 5px;
+  border: 1px solid black;
 }
 /********Navigation End**********/
 
@@ -167,7 +173,7 @@ a .offer {
 }
 
 .hover {
-  padding: 47px 136px;
+  padding: 46px 135px;
   border: 1px solid black;
 }
 
@@ -306,6 +312,11 @@ input[type=submit] {
   border: 1px solid black;
 }
 
+input[type=submit]:hover {
+  background-color: black;
+  color: white;
+}
+
 .divider h3 {
   display: inline-block;
 }
@@ -402,8 +413,9 @@ footer {
 @media screen and (max-width:768px) {
   /*Navigation*/
   nav li {
-    display: none;
+    /*display: none;*/
   }
+
   nav li:first-child {
     display: block;
     width: 30%;
